@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Burung Langka</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="about_menu">About</string>
+    <string name="about_nama">Krisna Putra Pratama</string>
+    <string name="about_email">putra.krisna295@gmail.com</string>
+    <string name="about_sumber">Data dari Wikipedia Indonesia</string>
+    <string name="burung_name">Nama Burung</string>
+    <string name="burung_scientific_label">Nama Ilmiah:</string>
+    <string name="burung_scientific_name">Nama Ilmiah Burung</string>
+    <string name="burung_konservasi_label">Status Konservasi:</string>
+    <string name="burung_konservasi_name">Status Konservasi Burung</string>
+    <string name="burung_deskripsi_label">Deskripsi</string>
+    <string name="detail">Detail</string>
+    <string name="title_activity_detail">Detail</string>
+</resources>

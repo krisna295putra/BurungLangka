@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="margin_form">15dp</dimen>
+    <dimen name="margin_list">5dp</dimen>
+    <dimen name="margin_info">4sp</dimen>
+    <dimen name="margin_foto">25dp</dimen>
+    <dimen name="margin_deskripsi_atas">10dp</dimen>
+    <dimen name="margin_title_bawah">8sp</dimen>
+    <dimen name="width_foto">175dp</dimen>
+    <dimen name="height_foto">175dp</dimen>
+    <dimen name="batas_atas">10dp</dimen>
+    <dimen name="batas_bawah">10dp</dimen>
+    <dimen name="title_text">25sp</dimen>
+</resources>

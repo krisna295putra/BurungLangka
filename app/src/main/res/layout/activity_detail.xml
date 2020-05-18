@@ -1,0 +1,91 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margin_form">
+        <TextView
+            android:id="@+id/nama_burung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/burung_name"
+            android:textSize="@dimen/title_text"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/margin_title_bawah"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/foto_burung"
+                android:layout_width="@dimen/width_foto"
+                android:layout_height="@dimen/height_foto"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:gravity="left"
+                android:src="@drawable/kris" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/margin_info">
+
+                <TextView
+                    android:id="@+id/label_ilmiah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textStyle="bold"
+                    android:text="@string/burung_scientific_label"/>
+
+                <TextView
+                    android:id="@+id/nama_ilmiah_burung"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textStyle="italic"
+                    android:text="@string/burung_scientific_name" />
+                <TextView
+                    android:id="@+id/label_konservasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textStyle="bold"
+                    android:text="@string/burung_konservasi_label"/>
+
+                <TextView
+                    android:id="@+id/status_konservasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textStyle="italic"
+                    android:text="@string/burung_konservasi_name" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/burung_deskripsi_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginTop="@dimen/margin_deskripsi_atas"
+            android:text="@string/burung_deskripsi_label"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/burung_deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill"/>
+    </LinearLayout>
+</ScrollView>
